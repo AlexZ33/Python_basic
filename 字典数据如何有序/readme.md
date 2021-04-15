@@ -1,4 +1,6 @@
-> 最新在学习一些知识用到有序字典，看到别人使用OrderedDict（）。但查阅资料发现，python3.6（包含）之后，所有的普通dict（）字典都变为有序的了，不再需要OrderedDict（）这个类了。如果你还是使用python2，或python3.5之前的版本，那可以继续浏览下，否者就没必须看了。
+
+微信公众号原文阅读： [【Python Tips】python3.6之前 OrderedDict类（有序字典）](https://mp.weixin.qq.com/s?__biz=MzkyMjE4NTA4OQ==&mid=2247484124&idx=1&sn=56893356d430dd6e2a5e282b2e85d3c0&chksm=c1f97e32f68ef7244278a33a487b97af22beabad766abde7e6b638c6eb3fe69412844a6d20cc&token=1100837125&lang=zh_CN#rd)
+> > 最新在学习一些知识用到有序字典，看到别人使用OrderedDict（）。但查阅资料发现，python3.6（包含）之后，所有的普通dict（）字典都变为有序的了，不再需要OrderedDict（）这个类了。如果你还是使用python2，或python3.5之前的版本，那可以继续浏览下，否者就没必须看了。
 
 先说结论
 - python3.5 字典是无序的
