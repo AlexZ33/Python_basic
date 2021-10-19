@@ -1,14 +1,22 @@
+# 属性装饰器
+class Student(object):
+    @property
+    def score(self):
+        return self._score
+
+    @score.setter
+    def score(self, value: int):
+        """
+
+        :type value: int
+        """
+        if not isinstance(value, int):
+            raise ValueError("必须输入数字!")
+        if value < 0 or value > 100:
+            raise ValueError("必须大于0小于100")
+        self._score = value
 
 
-
-# 由于函数也是一个对象，而且函数对象可以被赋值给变量，所以，通过变量也能调用该函数。
-
-
-def now():
-    print("2021-0808")
-
-f = now
-
-f()
-
-    
+s = Student()
+s.score = 101
+print(s.score)
