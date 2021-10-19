@@ -1,5 +1,3 @@
-
-Java中数据结构与Python中数据结构比较
 <table>
 <thead>
 <tr>
